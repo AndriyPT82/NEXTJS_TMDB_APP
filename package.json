@@ -9,10 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.11",
-    "next": "13.4.11",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "axios": "^1.4.0",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "next": "13.4.9",
+    "node-fetch": "^2.6.12",
+    "react-alice-carousel": "^2.7.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-player": "^2.13.0",
+    "styled-components": "^6.0.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.0.1",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "babel-plugin-styled-components": "^2.1.4"
   }
 }
