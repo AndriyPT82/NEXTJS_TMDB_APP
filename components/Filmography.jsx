@@ -1,14 +1,13 @@
+import { useState } from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.div`
-  margin: auto;
-  padding: 0 30px;
-  max-width: 1280px;
-  width: 100%;
-`;
+const Wrapper = styled.div``;
 
-function Filmography({ children }) {
-  return <Wrapper>{children}</Wrapper>;
+function Filmography({ video }) {
+  const [filterBy, setFilterBy] = useState(null);
+
+  const sorted = filterBy ? video.filter((item) => item[filterBy]) : video;
+  return 123;
 }
 
 export default Filmography;
