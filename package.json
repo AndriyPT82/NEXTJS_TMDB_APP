@@ -1,10 +1,13 @@
 {
   "name": "movie-db-app",
+  "homepage": "https://AndriyPT82.github.io/NEXTJS_TMDB_APP/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -25,6 +28,7 @@
     "@svgr/webpack": "^8.0.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
-    "babel-plugin-styled-components": "^2.1.4"
+    "babel-plugin-styled-components": "^2.1.4",
+    "gh-pages": "^6.0.0"
   }
 }
